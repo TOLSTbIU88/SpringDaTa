@@ -31,8 +31,5 @@ public class Reserved {
     @NonNull
     private String buyName;
 
-    @Column(nullable = false)
-    @NonNull
-    private BigDecimal price;
 
 }
