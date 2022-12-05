@@ -6,6 +6,7 @@ import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 
 import javax.persistence.*;
+import java.math.BigDecimal;
 import java.util.Calendar;
 
 @Entity
@@ -13,12 +14,6 @@ import java.util.Calendar;
 @NoArgsConstructor
 @RequiredArgsConstructor
 public class Reserved {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column
-    private Long id;
-
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
