@@ -31,5 +31,4 @@ public class Reserved {
     @NonNull
     private String buyName;
 
-
 }
